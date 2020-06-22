@@ -132,26 +132,6 @@ header nav {
 }
 
 
-
-
-#intro {
-background-image: url('https://source.unsplash.com/4hQaZN5a1Xc');
-background-position:center;
-background-repeat:no-repeat;
-background-size:cover;
-background-attachment:fixed;
-display:flex;
-justify-content:center;
-flex-direction:column;
-align-items:center;
-height:50vh;
-}
-
-#intro p {
-    font-size:2rem;
-    margin:2%;
-}
-
 #introduction p, #bios p {
     font-size:2rem;
 }
@@ -213,52 +193,6 @@ height:50vh;
     border-radius:50%;
 }
 
-.info {
-    display:flex;
-    font-size: 2rem;
-    justify-content:center;
-    flex-direction:column;
-    text-align:center;
-}
-
-.info p {
-    margin:1%;
-}
-
-#reviews{
-    display:flex;
-    flex-wrap:nowrap;
-    justify-content:center;
-    /* max-width:95%; */
-    margin:2%;
-    text-align:center;
-    font-size:1.5rem;
-    background-color:floralwhite;
-    color:darkred;
-}
-
-#reviews img {
-    border-radius:50%;
-    width:60%;
-    height:70%;
-}
-
-#reviews div {
-    display:flex;
-    justify-content:center space-evenly;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    padding:1%;
-    margin:2%;
-    letter-spacing:.15rem;
-}
-
-#reviews div p {
-    margin-top: 10%;
-}
-
-
 
 
 footer {
@@ -291,13 +225,80 @@ footer nav {
     justify-content:space-between;
 }
 
-/*Responsive*/
+/* Responsive */
 
+@media(max-width:500px){
+
+   
+
+    h1 {
+        font-size:3rem;
+    }
+
+
+    #introduction {
+        font-size:2rem
+    }
+
+    header {
+        margin-bottom:1%;
+    }
+
+    header div {
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    header div nav a {
+        padding: 2% 2%;
+        border: .2rem;
+        font-size: 1.3rem; 
+        border-style: solid;
+        border-color: ivory;
+        color:floralwhite;
+        text-align:center;
+        background-color:firebrick;
+
+    }
+
+    #introduction {
+        width:80%;
+    }
+
+    #bios {
+        display:flex;
+        flex-direction:column;
+        width:80%;
+    }
+
+    #bios div {
+        width:50%;
+        margin:0;
+    }
+    
+    footer div {
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    footer div nav a {
+        margin: 2%;
+        padding: 2% 2%;
+        border: .2rem;
+        font-size: 1.3rem; 
+        border-style: solid;
+        border-color: ivory;
+        color:floralwhite;
+        text-align:center;
+        background-color:firebrick;
+    }
+}
+
+/*
 @media(max-width:500px){
 
     *{
         box-sizing:border-box;
-        max-width:100%;
     }
     
     section {
@@ -306,7 +307,7 @@ footer nav {
     }
 
     h1{
-        font-size: 3.25rem;
+        font-size: 1rem;
     }
 
     h2 {
@@ -441,5 +442,4 @@ footer div nav a {
     }
 
 }
-
-}
+ */
