@@ -306,7 +306,7 @@ footer nav {
     }
 
     h1{
-        font-size: 3.25rem;
+        font-size: 3rem;
     }
 
     h2 {
@@ -329,7 +329,7 @@ footer nav {
     header div nav a {
         padding: 2% 2%;
         border: .2rem;
-        font-size: 1.3rem; 
+        font-size: 1.25rem; 
         border-style: solid;
         border-color: ivory;
         color:floralwhite;
