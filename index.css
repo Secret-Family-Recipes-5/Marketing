@@ -326,6 +326,10 @@ footer nav {
         justify-content:space-between;
     }
 
+    header div h1 {
+        font-size:3rem;
+    }
+
     header div nav a {
         padding: 2% 2%;
         border: .2rem;
