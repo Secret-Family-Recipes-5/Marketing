@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end reset*/
+
+*{
+    max-width:100%;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    margin: .5%;
+    color:floralwhite;
+    background-color:darkred;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 9.5rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+}
+
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 9rem;
+    color:darkred;
+}
+
+a {
+    text-decoration:none;
+}
+
+header {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 2%;
+}
+
+header h1 {
+    margin-bottom: 2%;
+    margin-top:1.5%;
+}
+
+header div nav a {
+    margin: 2%;
+    padding: 2% 5%;
+    border: .5rem;
+    border-style: solid;
+    border-color: ivory;
+    font-size: 1.75rem;
+    color:floralwhite;
+    text-align:center;
+    background-color:firebrick;
+}
+
+header div nav a:hover{
+    border-color:firebrick;
+    color:firebrick;
+    background-color:floralwhite;
+}
+
+header nav {
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+
+#intro {
+background-image: url('https://source.unsplash.com/4hQaZN5a1Xc');
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+height:50vh;
+}
+
+#intro p {
+    font-size:2rem;
+    margin:2%;
+}
+
+.info {
+    display:flex;
+    font-size: 2rem;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.info p {
+    margin:1%;
+}
+
+#reviews{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    /* max-width:95%; */
+    margin:2%;
+    text-align:center;
+    font-size:1.5rem;
+    background-color:floralwhite;
+    color:darkred;
+}
+
+#reviews img {
+    border-radius:50%;
+    width:60%;
+    height:70%;
+}
+
+#reviews div {
+    display:flex;
+    justify-content:center space-evenly;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding:1%;
+    margin:2%;
+    letter-spacing:.15rem;
+}
+
+#reviews div p {
+    margin-top: 10%;
+}
+
+
+
+
+footer {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 2%;
+}
+
+footer div nav a {
+    margin: 2%;
+    padding: 2% 5%;
+    border: .5rem;
+    border-style: solid;
+    border-color: ivory;
+    font-size: 1.75rem;
+    color:floralwhite;
+    text-align:center;
+    background-color:firebrick;
+}
+
+footer div nav a:hover{
+    border-color:firebrick;
+    color:firebrick;
+    background-color:floralwhite;
+}
+
+footer nav {
+    display:flex;
+    justify-content:space-between;
+}
+
+/*Responsive*/
+
+@media(max-width:500px){
+
+    *{
+        box-sizing:border-box;
+    }
+    
+    section {
+        margin-top: 5%;
+        margin-bottom:5%;
+    }
+
+    h1{
+        font-size: 3.25rem;
+    }
+
+    h2 {
+        font-size:2.75rem;
+    }
+
+    h3 {
+        font-size:2.75rem;
+    }
+
+    header {
+        margin-bottom:1%;
+    }
+
+    header div {
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    header div nav a {
+        padding: 2% 2%;
+        border: .2rem;
+        font-size: 1.3rem; 
+        border-style: solid;
+        border-color: ivory;
+        color:floralwhite;
+        text-align:center;
+        background-color:firebrick;
+
+    }
+
+    .info p {
+        font-size:1.5rem;
+    }
+
+    #intro {
+        display:flex;
+        justify-content:center;
+        text-align:center;
+    }
+
+    #reviews {
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        width:95%;
+    }
+
+    #reviews img{
+        width:30%;
+    }
+
+    footer div {
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    footer div nav a {
+        margin: 2%;
+        padding: 2% 2%;
+        border: .2rem;
+        font-size: 1.3rem; 
+        border-style: solid;
+        border-color: ivory;
+        color:floralwhite;
+        text-align:center;
+        background-color:firebrick;
+    }
+
+
+}
+
+@media(max-width:360px){
+
+}
