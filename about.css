@@ -260,11 +260,15 @@ footer nav {
         justify-content:space-between;
     }
 
+    header div h1 {
+        font-size:3rem;
+    }
+
     header div nav a {
         width: 18%;
         padding: 2% 2%;
         border: .2rem;
-        font-size: 1.25rem; 
+        font-size: 1.15rem; 
         border-style: solid;
         border-color: ivory;
         color:floralwhite;
@@ -272,9 +276,7 @@ footer nav {
         background-color:firebrick;
     }
 
-    header div h1 {
-        font-size:3rem;
-    }
+   
 
     #introduction h2 {
         font-size:3rem;
@@ -288,6 +290,8 @@ footer nav {
 
 
     #introduction {
+        margin: 0 auto;
+        margin-bottom: 4%;
         width:80%;
         display:flex;
         justify-content:center;
@@ -295,7 +299,7 @@ footer nav {
 
     #bios {
         width: 80%;
-        margin: 0 2%;
+        margin: 0 auto;
         display:flex;
         flex-direction:column;
         justify-content:center;
@@ -320,7 +324,7 @@ footer nav {
         margin: 2%;
         padding: 2% 2%;
         border: .2rem;
-        font-size: 1.3rem; 
+        font-size: 1.15rem; 
         border-style: solid;
         border-color: ivory;
         color:floralwhite;
