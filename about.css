@@ -333,7 +333,25 @@ footer nav {
     }
 }
 
+@media(max-width:800px) {
+    #bios {
+        width: 80%;
+        margin: 5% auto;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width:80%;
+    }
 
+    #bios div {
+        width:50%;
+        margin:0;
+        margin-bottom:10%;
+        margin-top:5%;
+    }
+
+}
 
 
 @media(max-width:1000px){

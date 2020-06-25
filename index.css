@@ -180,8 +180,79 @@ height:50vh;
     font-size:3rem;
 }
 
+#feedback {
+display:flex;
+margin: 0 5%;
+display:flex;
+max-width:90%;
+flex-wrap:nowrap;
+flex-direction:column;
+text-align:center;
+align-items:center;
+background-color:floralwhite;
+color:darkred;
+padding-top:2.5%;
+}
 
+#feedback div {
+    padding-bottom:2%;
+}
 
+#feedback p {
+    font-size:1.75rem;
+    color:black;
+}
+
+#feedback h3 {
+    color:darkred;
+}
+
+#feedPhoto {
+    display:flex;
+    align-items:center;
+    margin: 2% auto;
+    width:60%;
+}
+
+#feedbackTwo {
+    display:flex;
+    margin: 2% auto;
+    max-width:50%;
+    font-size:1.5rem;
+    text-align:center;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:floralwhite;
+    color:black;
+    padding:2.5% 1.5%;
+    }
+
+    button {
+        margin: 2%;
+        padding: 2% 5%;
+        border: .5rem;
+        border-style: solid;
+        border-color: darkred;
+        font-size: 1.75rem;
+        color:floralwhite;
+        text-align:center;
+        background-color:firebrick;
+        font-family:'Libre Baskerville', serif;
+    }
+
+    button:hover {
+        border-color:darkred;
+        color:firebrick;
+        background-color:floralwhite;
+    }
+
+    input[type=text], textarea {
+        padding:2%;
+        margin-top:1%;
+        margin-bottom:2%;
+        width:100%;
+    }
 
 #bios {
     display:flex;
